@@ -1,0 +1,17 @@
+{
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "files.exclude": {
+    "**/node_modules/**": true,
+    "**/_temp_/**": true,
+    "**/apps/web/**": true,
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "window.zoomLevel": 0
+}
